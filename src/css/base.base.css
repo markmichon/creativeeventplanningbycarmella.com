@@ -1,0 +1,29 @@
+/* Baseline Styles */
+
+html {
+  font: 16px/1.5 var(--sans-serif);
+  color: var(--text-color);
+  background-color: var(--light-color);
+}
+
+h1, h2, h3 {
+  line-height: 1;
+}
+
+h1, h2, p {
+  margin-bottom: calc(var(--base-unit) / 2);
+}
+
+p {
+  /*font-family: var(--sans-serif);*/
+}
+
+a {
+  color: var(--brand-color);
+  transition: color .125s ease-in-out;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--light-color);
+}

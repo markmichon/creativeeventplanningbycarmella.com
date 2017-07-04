@@ -1,0 +1,23 @@
+{
+  "name": "basic-starter",
+  "version": "1.0.0",
+  "description": "Basic starter repo for low-complexity front end projects",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-import": "^10.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch"
+  },
+  "author": "",
+  "license": "MIT"
+}

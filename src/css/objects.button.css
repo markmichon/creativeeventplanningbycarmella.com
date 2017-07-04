@@ -1,0 +1,19 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  border: none;
+  padding: calc(var(--base-unit) / 2) var(--base-unit);
+  text-decoration: none;
+  background-color: var(--brand-color);
+  color: var(--light-color);
+  transition: all .25s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--brand-color-alt);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
